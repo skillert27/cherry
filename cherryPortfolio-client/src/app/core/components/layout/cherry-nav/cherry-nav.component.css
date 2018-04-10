@@ -1,0 +1,27 @@
+ul.nav-list{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding : 0;
+  margin-right: 2rem;
+  justify-content: flex-end;
+}
+/* li:nth-child(1)::before{
+  flex-grow: 5;
+} */
+li.nav-items{
+  padding : 0.5rem;
+  margin-right: 3rem;
+  //flex-grow: 1;
+}
+li:nth-last-child(1){
+  margin-right: 0;
+}
+a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: gray;
+}
+a:hover{
+  font-weight: bold;
+}

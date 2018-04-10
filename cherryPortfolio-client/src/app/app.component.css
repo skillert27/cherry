@@ -1,0 +1,15 @@
+*{
+  font-family: arial;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+}
+nav{
+}
+header{
+}
+main{
+}
+footer{
+}
