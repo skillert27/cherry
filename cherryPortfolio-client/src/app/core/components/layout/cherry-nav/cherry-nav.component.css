@@ -6,14 +6,18 @@ ul.nav-list{
   margin-right: 2rem;
   justify-content: flex-end;
 }
-/* li:nth-child(1)::before{
-  flex-grow: 5;
-} */
+
 li.nav-items{
+  border: 1px solid gray;
   padding : 0.5rem;
   margin-right: 3rem;
+  flex-basis: 10%;
   //flex-grow: 1;
+  flex-shrink: 1;
 }
+/* li:nth-child(1)::before{
+ flex-grow: 5;
+} */
 li:nth-last-child(1){
   margin-right: 0;
 }
@@ -23,5 +27,5 @@ a{
   color: gray;
 }
 a:hover{
-  font-weight: bold;
+  //font-weight: bold;
 }

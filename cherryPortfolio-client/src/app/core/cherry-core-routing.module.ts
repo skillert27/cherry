@@ -1,12 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { CherryMainComponent} from './components/index';
-import { CherryAboutComponent} from './components/index';
+import {
+  CherryMainComponent,
+  CherryAboutComponent,
+  CherryLoginComponent,
+  CherryRegisterComponent
+} from './components/index';
 
 const routes: Routes = [
   { path : '',component:CherryMainComponent},
+  { path : 'home',component:CherryMainComponent},
   { path : 'about',component:CherryAboutComponent},
+  { path : 'register',component:CherryRegisterComponent},
+  { path : 'login',component:CherryLoginComponent},
 ];
 
 @NgModule({
@@ -15,4 +22,9 @@ const routes: Routes = [
 })
 export class CherryCoreRoutingModule { }
 
-export const coreRoutedComponents = [CherryMainComponent,CherryAboutComponent];
+export const coreRoutedComponents = [
+  CherryMainComponent,
+  CherryAboutComponent,
+  CherryLoginComponent,
+  CherryRegisterComponent
+];

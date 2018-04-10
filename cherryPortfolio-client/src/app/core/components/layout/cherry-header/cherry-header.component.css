@@ -1,1 +1,8 @@
-
+#sliderImage{
+  padding:0;
+  border: 1px solid blue;
+  overflow: hidden;
+}
+img{
+  padding:0;
+}

@@ -15,6 +15,8 @@ import { HoverButtonComponent } from './shared/index';
   exports : [
       CherryHeaderComponent,CherryNavComponent,CherryFooterComponent
   ],
-  declarations: [CherryHeaderComponent,CherryNavComponent,CherryFooterComponent,coreRoutedComponents, HoverButtonComponent]
+  declarations: [CherryHeaderComponent,CherryNavComponent,
+    CherryFooterComponent,coreRoutedComponents,
+    HoverButtonComponent]
 })
 export class CherryCoreModule { }
