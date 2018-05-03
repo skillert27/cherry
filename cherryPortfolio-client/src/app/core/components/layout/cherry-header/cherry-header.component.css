@@ -1,6 +1,10 @@
+#sliderBox{
+  border: 1px solid blue;
+  margin: 0;
+  //margin-top: 10%;
+}
 #sliderImage{
   padding:0;
-  border: 1px solid blue;
   overflow: hidden;
 }
 img{

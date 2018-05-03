@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CherryCoreRoutingModule,coreRoutedComponents } from './cherry-core-routing.module';
@@ -8,6 +9,7 @@ import { HoverButtonComponent } from './shared/index';
 
 @NgModule({
   imports: [
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     CommonModule,
     CherryCoreRoutingModule

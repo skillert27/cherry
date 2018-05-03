@@ -1,3 +1,11 @@
+/* #header{
+  position: fixed;
+  right: 0;
+  top :0;
+  width: 100%;
+  background-color: #eee;
+  z-index: 10;
+} */
 ul.nav-list{
   display: flex;
   flex-direction: row;
@@ -8,10 +16,9 @@ ul.nav-list{
 }
 
 li.nav-items{
-  border: 1px solid gray;
   padding : 0.5rem;
   margin-right: 3rem;
-  flex-basis: 10%;
+  flex-basis: 6%;
   //flex-grow: 1;
   flex-shrink: 1;
 }

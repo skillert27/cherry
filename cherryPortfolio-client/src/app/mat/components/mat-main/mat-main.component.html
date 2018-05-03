@@ -1,0 +1,26 @@
+<mat-toolbar color='primary'>
+  <mat-toolbar-row>
+    <span>First Row</span>
+    <span class="fill-space"></span>
+    <a routerLink="register">register</a>
+    <a routerLink="login">login</a>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened>
+    <mat-nav-list>
+      <a mat-list-item routerLink =".">A</a>
+      <a mat-list-item routerLink ="aboutme">B</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span>footer</span>
+  </mat-toolbar-row>
+</mat-toolbar>
